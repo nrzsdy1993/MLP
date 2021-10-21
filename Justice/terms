@@ -1,0 +1,12 @@
+import os
+os.environ['KMP_DUPLICATE_LIB_OK']='True'
+    ☞ 검색 결과 각종 라이브러리를 깔고 나서 이들끼리 충돌을 방지하기 위한 코드
+
+MLP 모델이란?
+    ☞ 퍼셉트론이 지니고 있는 한계(비선형 분류 문제 해결)를 극복하기 위해 여러 Layer를 쌓아올린 MLP(Multi Layer Perceptron)가 등장함.
+    ☞ 간단히 비교하면,
+     + 퍼셉트론은 Input Layer와 Output Layer만 존재하는 형태입니다.
+     + MLP는 Input과 Output 사이에 Hidden Layer를 추가합니다. 즉, MLP는 이러한 Hidden Layer를 여러겹으로 쌓게 되는데, 이를 MLP 모델이라고 부릅니다.
+
+MLP 모델을 활용한 MNIST 모델 개발
+    ☞ MLP 모델 순서대로 코드를 구현합니다.
